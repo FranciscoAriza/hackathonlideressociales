@@ -1,0 +1,78 @@
+{% extends 'lideres/base.html' %}
+{% load staticfiles %}
+{% block cssfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'template/app-assets/css/pages/gallery.min.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="content-wrapper">
+  {% if messages %}
+  {% for msj in messages %}
+  <div class="alert round alert-success" style="text-align: center;">
+    <strong>Información!</strong> {{ msj }} <a href="/client/citas" class="alert-link">Clic aquí para ver agendamiento.</a>
+  </div>
+  {% endfor %}
+  {% endif %}
+  <div class="content-header row">
+
+  </div>
+  <div class="content-body">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6  ">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title" id="horz-layout-card-center">Datos del perfil del líder
+</h4>
+            <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+          </div>
+          <div class="card-content collapse show">
+            <div class="card-body">
+              <div class="card-text">
+
+              </div>
+              <input type="text" value="{{user.id}}"
+                                hidden id="tmp_uid">
+              <form class="form form-horizontal" action="/lideres/actualizar_perfil" method="POST">
+                <div class="form-body">
+                  {% csrf_token %}
+
+                  {% for field in form %}
+                    <div class="form-group row">
+                      <label class="col-md-3 label-control" for="{{ field.label }}">{{ field.label }}</label>
+                      <div class="col-md-9">
+                        {{ field }}
+                      </div>
+                    </div>
+                    {% if field.errors %}
+                        <div class="row tight justify-content-center">
+                            <div class="col-md-3 label-control"></div>
+                            <div class="col-md-9">
+                                {{ field.errors }}
+                            </div>
+                        </div>
+                    {% endif %}
+                  {% endfor %}
+                <div class="form-actions center">
+                  <button id="update_profile" type="submit" class="btn btn-primary">
+                    <i class="la la-check-square-o"></i> Actualizar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block javascripts %}
+<script type="text/javascript">
+  $(document).ready(function()  {
+    $('#id_nombres').change(function() {
+      $('#id_usuario').val($('#tmp_uid').val());
+    });
+  });
+</script>
+{% endblock %}

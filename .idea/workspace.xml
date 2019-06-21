@@ -1,7 +1,987 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e0d2c52-5ea1-44d2-9d2c-7f21e6d8f6b1" name="Default Changelist" comment="" />
+    <list default="true" id="6e0d2c52-5ea1-44d2-9d2c-7f21e6d8f6b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/ajax/client/profile_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/ajax/client/profile_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/css/style_landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/account-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/billing-credit-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/billing-paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/cast-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/cast-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/cast-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/credit-card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/daadadsplans-background-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/dashboard-movie-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/dashboard-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/dashboard-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/dashboard-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/dashboard-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/dashboard-slide-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/holly-mandarich-236721-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-1-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-1_old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-2_old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-3-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/home-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/jonathan-pendleton-6555-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/listing-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/movie-detail-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/plans-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/playlist-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/profile-image-sidebar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/signup-background-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/signup-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/slide-1-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/slide-1-op2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/slide-2-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/slide-3-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-profile-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-profile-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-profile-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/user-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/demo/zachary-shea-577599-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/faces/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/Iconsmind__Ultimate_Pack/Line icons/fonts/icomoonca27.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/Iconsmind__Ultimate_Pack/Line icons/fonts/icomoonca27.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/Iconsmind__Ultimate_Pack/Line icons/fonts/icomoonca27.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/Iconsmind__Ultimate_Pack/Line icons/fonts/icomoond41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/Iconsmind__Ultimate_Pack/Line icons/styles.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/icons/fontawesome/webfonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/jquery/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/circle-progress.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/jquery-asRange.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/script-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/vendor.bundle.addons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/landing/vendors/js/vendor.bundle.base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/app.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/colors.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-callout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-callout.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-climacon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-gradient.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-loader.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-noui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-tooltip.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/menu/menu-types/vertical-compact-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/menu/menu-types/vertical-compact-menu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/pages/chat-application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/pages/gallery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/pages/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/pages/timeline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/pages/users.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/plugins/calendars/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/vendors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/vendors.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/feather/fonts/feather2467.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/feather/fonts/feather2467.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/feather/fonts/feather2467.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/feather/fonts/feather2467.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/feather/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/css/flag-icon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/1x1/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/flag-icon-css/flags/4x3/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/line-awesome/css/line-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/line-awesome/fonts/line-awesome0176.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/line-awesome/fonts/line-awesomeeb4f.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/line-awesome/fonts/line-awesomeeb4f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/line-awesome/fonts/line-awesomeeb4f.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/line-awesome/fonts/line-awesomeeb4f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/line-awesome/fonts/line-awesomeeb4f.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/simple-line-icons/fonts/Simple-Line-Iconsd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/fonts/simple-line-icons/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/carousel/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/carousel/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/gallery/foto11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/gallery/foto3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/gallery/foto3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/gallery/foto4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/gallery/foto5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/ico/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo-80x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo-80x80_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo-dark-lg_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo-dark_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo-light-lg_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo-light_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/logo/logo_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/medium/avatar-m-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/medium/avatar-m-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/medium/avatar-m-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/medium/avatar-m-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/medium/avatar-m-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/medium/avatar-m-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/medium/avatar-m-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/avatar-s-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/images/portrait/small/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/app-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/app-menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.de-DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.de-DE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.ja-JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.ja-JP.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery_ui/globalize/globalize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery_ui/globalize/globalize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/core/libraries/jquery_ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/scripts/customizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/scripts/customizer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/scripts/extensions/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/scripts/pages/chat-application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/js/scripts/pages/timeline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/daterangepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/drp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/example/amd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/example/amd/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/example/amd/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/example/browserify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/example/browserify/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/example/browserify/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/example/browserify/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/website/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/website/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-daterangepicker/website/website.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/ChangeLog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/ContributorsGuide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/Events.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/Extras.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/FAQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/Functions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/Installing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/Options.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/Version 4 Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/Version 4 Contributors guide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/android-chrome-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/android-chrome-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/android-chrome-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/android-chrome-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/android-chrome-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/css/prettify-1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/js/prettify-1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/mstile-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/mstile-310x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/mstile-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/mstile-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/docs/theme/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/mkdocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/less/_bootstrap-datetimepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/less/bootstrap-datetimepicker-build.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/nuget/Bootstrap.v3.Datetimepicker.CSS.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/nuget/Bootstrap.v3.Datetimepicker.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/nuget/NuGet.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/nuget/install.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/sass/_bootstrap-datetimepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker-build.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/tasks/bump_version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/publicApiSpec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/t1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/t2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/t3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/t4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/screen-capture/t5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/bootstrap-datetimepicker/test/timezoneDataHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/calendars/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/extensions/pace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/flat@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/flat/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/futurico/futurico.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/futurico/futurico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/futurico/futurico@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/icheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/line/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/line/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/line/line@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/minimal/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/polaris/polaris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/polaris/polaris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/polaris/polaris@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/forms/icheck/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/tables/datatable/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/css/tables/datatable/select.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/extensions/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/extensions/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/forms/icheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/buttons.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.autoFill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.colReorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.colVis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.fixedColumns.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.fixedHeader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.keyTable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.rowReorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/dataTables.select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/tables/datatable/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/app-assets/vendors/js/vendors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/static/template/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/templates/home/landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/denuncias.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/instituciones/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/templates/lideres/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/templates/lideres/autoproteccion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/templates/lideres/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/templates/lideres/denuncia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/templates/lideres/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/templates/lideres/perfil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/lideres/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asalvo/management/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asalvo/asalvo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/asalvo/asalvo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asalvo/asalvo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/asalvo/asalvo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asalvo/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/asalvo/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asalvo/instituciones/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/asalvo/instituciones/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asalvo/instituciones/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/asalvo/instituciones/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asalvo/lideres/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/asalvo/lideres/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asalvo/lideres/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/asalvo/lideres/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requeriments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeriments.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,17 +989,148 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/asalvo/asalvo/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6392206">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/lideres/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-794">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/instituciones/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="336">
+                  <caret line="144" column="73" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="73" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/denuncias.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="43" selection-start-line="43" selection-end-line="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/asalvo/home/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="112" column="46" lean-forward="true" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/home/templates/home/landing.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/instituciones/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/lideres/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="60" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="60" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/denuncia.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/asalvo/lideres/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/asalvo/instituciones/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>brand-logo</find>
+      <find>bg-gradient-x-blue</find>
+      <find>background-colo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,26 +1138,48 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/asalvo/management/urls.py" />
+        <option value="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/colors.css" />
+        <option value="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap-extended.css" />
+        <option value="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap-extended.min.css" />
+        <option value="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-gradient.min.css" />
+        <option value="$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/pages/gallery.min.css" />
         <option value="$PROJECT_DIR$/asalvo/asalvo/settings.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/hackathonlideressociales.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/templates/lideres/acreditar.html" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/templates/lideres/autoproteccion.html" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/templates/lideres/index.html" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/templates/lideres/perfil.html" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/forms.py" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/urls.py" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/templates/lideres/about.html" />
+        <option value="$PROJECT_DIR$/asalvo/asalvo/urls.py" />
+        <option value="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/about.html" />
+        <option value="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/index.html" />
+        <option value="$PROJECT_DIR$/asalvo/home/urls.py" />
+        <option value="$PROJECT_DIR$/requeriments.txt" />
+        <option value="$PROJECT_DIR$/asalvo/home/templates/home/landing.html" />
+        <option value="$PROJECT_DIR$/asalvo/home/models.py" />
+        <option value="$PROJECT_DIR$/asalvo/instituciones/models.py" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/models.py" />
+        <option value="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/base.html" />
+        <option value="$PROJECT_DIR$/asalvo/instituciones/urls.py" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/templates/lideres/denuncia.html" />
+        <option value="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/denuncias.html" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/views.py" />
+        <option value="$PROJECT_DIR$/asalvo/lideres/templates/lideres/base.html" />
+        <option value="$PROJECT_DIR$/asalvo/instituciones/views.py" />
+        <option value="$PROJECT_DIR$/asalvo/home/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -72,6 +1205,89 @@
               <item name="asalvo" type="462c0819:PsiDirectoryNode" />
               <item name="asalvo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="instituciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="instituciones" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="instituciones" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="instituciones" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="instituciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="lideres" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="lideres" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="lideres" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="lideres" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="lideres" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackathonlideressociales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackathonlideressociales" type="462c0819:PsiDirectoryNode" />
+              <item name="asalvo" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,9 +1295,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/asalvo/instituciones/templates/instituciones" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\github\hackathonlideressociales\asalvo\instituciones\templates\instituciones" />
+      <recent name="C:\dev\github\hackathonlideressociales\asalvo\lideres\templates\lideres" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,17 +1331,18 @@
       <option name="presentableId" value="Default" />
       <updated>1560990666333</updated>
       <workItem from="1560990703566" duration="1065000" />
-      <workItem from="1560993311441" duration="613000" />
+      <workItem from="1560993311441" duration="53611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1678000" />
+    <option name="totallyTimeSpent" value="54676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -127,10 +1353,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3163597" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -140,15 +1366,320 @@
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3163597" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/asalvo/management/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap-extended.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="737" column="17" selection-start-line="737" selection-start-column="17" selection-end-line="737" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/bootstrap-extended.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15661" selection-start-column="15661" selection-end-column="15661" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/core/colors/palette-gradient.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/static/template/app-assets/css/pages/gallery.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19597" selection-start-column="19582" selection-end-column="19597" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/asalvo/asalvo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="127">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/autoproteccion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/perfil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/asalvo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requeriments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/migrations/0004_auto_20190621_0538.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/migrations/0003_auto_20190621_0535.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/templates/home/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/denuncia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="53" column="136" selection-start-line="53" selection-start-column="136" selection-end-line="53" selection-end-column="136" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/templates/instituciones/denuncias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/templates/lideres/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="144" column="73" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/instituciones/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/lideres/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-794">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asalvo/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="112" column="46" lean-forward="true" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

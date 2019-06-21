@@ -79,10 +79,24 @@ WSGI_APPLICATION = 'asalvo.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
+    # Connect to development
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'asalvo',
+        'USER': 'atulado',
+        'PASSWORD': '12345',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
+    # Connect to my AWS RDS POSTGRES Database
+    # 'default': {
+    #     'NAME': 'atulado',
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'USER': DATABASE_USER,
+    #     'PASSWORD': DATABASE_PASSWORD,
+    #     'HOST': DATABASE_HOST,
+    #     'PORT': '5432',
+    # }
 }
 
 
@@ -110,16 +124,27 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Bogota'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'home/static'),
+    # os.path.join(BASE_DIR, 'concursos/static'),
+    # os.path.join(BASE_DIR, 'plataforma_concurso/static'),
+    # os.path.join(BASE_DIR, 'proceso_conversion/static'),
+)
+
+# Sessions
+SESSION_COOKIE_AGE = 3600
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True

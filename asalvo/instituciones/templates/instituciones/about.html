@@ -1,0 +1,50 @@
+{% extends 'instituciones/base.html' %}
+{% load staticfiles %}
+{% block cssfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'template/app-assets/css/pages/gallery.min.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="content-wrapper">
+  {% if messages_pendientes %}
+  {% for msj in messages_pendientes %}
+  <div class="alert round alert-info alert-dismissible mb-2" role="alert" style="text-align: center;">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>Información!</strong> {{ msj }} <a href="/lideres/autoproteccion" class="alert-link">Clic aquí para saber cómo autoprotegerte.</a>
+  </div>
+  {% endfor %}
+  {% endif %}
+  {% if messages %}
+  {% for msj in messages %}
+  <div class="alert round alert-success alert-dismissible" style="text-align: center;">
+    <strong>Información!</strong> {{ msj }} <a href="/client/citas" class="alert-link">Clic aquí para ver agendamiento.</a>
+  </div>
+  {% endfor %}
+  {% endif %}
+  <div class="content-header row">
+
+  </div>
+  <div class="content-body">
+    <section id="hover-effects" class="card">
+      <div class="card-header">
+        <h4 class="card-title"></h4>
+        <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+      </div>
+      <div class="card-content">
+        <div class="card-body  my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          <div class="card-deck-wrapper">
+            <div class="card-deck text-center">
+              Plataforma desarrollada en el marco de la Hackathon CPCO2019.
+            </div>
+          </div>
+        </div>
+        <!--/ Image grid -->
+    </section>
+  </div>
+</div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}
